@@ -1,1 +1,11 @@
-{}
+{
+  "plugins": [
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "QndReact.createElement",
+        "throwIfNamespace": false
+      }
+    ]
+  ]
+}
